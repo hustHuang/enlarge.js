@@ -108,13 +108,13 @@
 				height: self.innerHeight() - shade.outerHeight()
 			}
             
-            // 对象坐标
+            		// 对象坐标
 			var offset = self.offset();
 			
 			// 显示效果
 			var show = function()
 			{
-                offset = self.offset();
+                		offset = self.offset();
 				shade.show();
 				if(option.fade) layer.stop().fadeIn(300);
 				else layer.show();
@@ -171,4 +171,5 @@
 	{
 		enlarge: enlarge
 	});
+	
 })(jQuery)
